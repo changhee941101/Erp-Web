@@ -5,7 +5,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Getter@Setter@ToString
-public class MemberPayDetailDto {
+public class MemberPayUpdateDto {
 
     // Member (사원 정보)
     private String id; // 사번
@@ -15,9 +15,9 @@ public class MemberPayDetailDto {
     private String position; // 직위
     private String bank; // 계좌 번호
 
+
     // MemberPay(급여 정보)
-    private Long payid; // 급여 아이디
-    private Long salary; // 기본급
+    private Long salary; //기본급
     private Long bonus; // 상여금
     private Long nightPay; // 야근수당
     private Long foodPay; // 식비

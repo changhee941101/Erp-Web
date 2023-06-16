@@ -168,7 +168,7 @@
    }
 
    a {
-       color: #4e73df;
+       color: #73685d;
        text-decoration: none;
        background-color: transparent
    }
@@ -4782,7 +4782,7 @@
        padding: .5rem .75rem;
        margin-left: -1px;
        line-height: 1.25;
-       color: #4e73df;
+       color: ##73685d;
        background-color: #fff;
        border: 1px solid #dddfeb
    }
@@ -4815,8 +4815,8 @@
    .page-item.active .page-link {
        z-index: 3;
        color: #fff;
-       background-color: #4e73df;
-       border-color: #4e73df
+       background-color: #73685d;
+       border-color: #73685d
    }
 
    .page-item.disabled .page-link {
@@ -5682,7 +5682,7 @@
    .modal {
      display: none;
      position: fixed;
-     z-index: 1;
+     z-index: 999;
      left: 0;
      top: 0;
      width: 100%;
@@ -5701,7 +5701,7 @@
    .modal2 {
      display: none;
      position: fixed;
-     z-index: 1;
+     z-index: 999;
      left: 0;
      top: 0;
      width: 100%;
@@ -5712,7 +5712,7 @@
 
    .modal-content2 {
      background-color: #fefefe;
-     margin: 6% auto;
+     margin: 1% auto;
      border-radius: 0.35rem;
      width: 60%;
    }
@@ -5720,7 +5720,7 @@
    .modal3 {
      display: none;
      position: fixed;
-     z-index: 1;
+     z-index: 999;
      left: 0;
      top: 0;
      width: 100%;
@@ -5731,7 +5731,7 @@
 
    .modal-content3 {
      background-color: #fefefe;
-     margin: 6% auto;
+     margin: 1% auto;
      border-radius: 0.35rem;
      width: 60%;
    }
@@ -5739,7 +5739,7 @@
    .modal4 {
         display: none;
         position: fixed;
-        z-index: 1;
+        z-index: 999;
         left: 0;
         top: 0;
         width: 100%;
@@ -5750,7 +5750,7 @@
 
       .modal-content4 {
         background-color: #fefefe;
-        margin: 6% auto;
+        margin: 1% auto;
         border-radius: 0.35rem;
         width: 60%;
       }
@@ -7708,7 +7708,7 @@
    }
 
    .mt-3,.my-3 {
-       margin-top: 1rem!important
+       margin-top: 4rem!important
    }
 
    .mr-3,.mx-3 {
@@ -7769,6 +7769,12 @@
 
    .p-0 {
        padding: 0!important
+   }
+
+   .p-0612-1 {
+        padding: 0!important;
+        margin-bottom: 20px;
+        margin-top: 20px;
    }
 
    .p-50 {
@@ -7887,6 +7893,11 @@
 
    .p-7 {
        padding: 4rem!important
+   }
+
+   .p-9 {
+       padding: 2rem!important;
+       margin-top: 4rem;
    }
 
    .pt-5,.py-5 {
@@ -11323,7 +11334,7 @@
 
    .card-body3 {
        flex: 1 1 auto;
-       min-height: 1px;
+       min-height: 680px;
        padding: 3.0rem;
    }
 
@@ -11335,7 +11346,7 @@
 
    .card-body5 {
        flex: 1 1 auto;
-       min-height: 1px;
+       min-height: 680px;
        padding: 2.5rem;
    }
 
@@ -11392,6 +11403,34 @@
     background-color: #fff;
 }
 
+.bg-login-image-ctm {
+  background: url(./../img/ERP1.png);
+  width: 800px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-color-white{
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg,#F5F5F5 10%,#F5F5F5 100%);
+  background-size: cover
+}
+
+.btn-background-brown {
+  color: #fff;
+  background-color: #73685d;
+  border-color: #73685d
+}
+
+.col-xl-100 {
+  flex: 0 0 83.33333%;
+  max-width: 70.33333%
+}
+
+.text-brown {
+  color: #73685d!important
+}
 
 
 
